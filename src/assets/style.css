@@ -13,6 +13,10 @@ nav{
     display: flex;
     padding: 20px 36px;
 }
+ 
+section{
+    padding: 20px;
+}
 
 .logo{
     max-width: 100px;
@@ -56,6 +60,26 @@ nav{
     padding-left: 36px;
     width: 30%;
     font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+/* ADD */
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-price {
+    margin-top: auto;
 }
 
 .card-img{
