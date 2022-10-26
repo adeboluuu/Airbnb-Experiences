@@ -110,8 +110,8 @@ section{
 
 .card-badge {
     position: absolute;
-    top: 6px;
-    left: 6px;
+    top: 5px;
+    left: 46px;
     background-color: white;
     padding: 5px 7px;
     border-radius: 2px;
